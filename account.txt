@@ -1,0 +1,3 @@
+------- Access to admin dashboard for demo purpose---------
+username: slai@ggc.edu
+password: ggc_spring2020
