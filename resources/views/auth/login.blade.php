@@ -15,6 +15,11 @@
     <form id="loginform" class="form-vertical" method="POST" action="{{ route('login') }}">
         <input type="hidden" name="_token" value="{{csrf_token()}}">
         <div class="control-group normal_text"> <h3><img src="{{asset('img/logo.png')}}" alt="Logo" /></h3></div>
+        <div>
+            <h2>Please use the following credential for Admin demo purposes:</h2>
+            <span><h3>Username: admin@admin.com</h3></span>
+            <span><h3>Password: 123456789</h3></span>
+        </div>
         <div class="control-group">
             <div class="controls">
                 <div class="main_input_box">
@@ -42,7 +47,7 @@
             </div>
         </div>
         <div class="form-actions">
-            <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Forgot password?</a></span>
+            <span class="pull-left"><a href="#" class="flip-link btn btn-info" id="to-recover">Forget password?</a></span>
             <span class="pull-right"><button type="submit" class="btn btn-success">Login</button></span>
         </div>
     </form>
